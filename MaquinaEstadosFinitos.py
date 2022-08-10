@@ -49,8 +49,7 @@ def contagemChar():
             else:
                 word = str(i)
                 dividir = word.split("\n")
-                palav = str(dividir[0])
-                palavra = palav.lower() ###passando tudo para letra minúscula para não ocorrer inconsistências
+                palavra = str(dividir[0])
                 for letra in palavra:
                     if letra == "a":
                         try:
